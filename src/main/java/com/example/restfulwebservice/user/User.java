@@ -13,7 +13,7 @@ import java.util.Date;
 
 @Data
 //@JsonIgnoreProperties({"password", "ssn"})
-@JsonFilter("UserInfo")
+//@JsonFilter("UserInfo")
 @AllArgsConstructor
 @NoArgsConstructor
 public class User {
