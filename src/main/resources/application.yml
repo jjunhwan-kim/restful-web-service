@@ -8,3 +8,11 @@ logging:
 spring:
   messages:
     basename: messages
+
+# Swagger
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+# Spring-Doc:
+#  version: '@project.version@'
